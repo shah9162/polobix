@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtc"> --> 
+<suite name="polobixV1" thread-count="3" parallel="tests">
+
+	<listeners>
+		<listeners class-name="com.polobix.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="ExchangeApp Test on CHROME">
+		<parameter name="browser" value="edge" />
+
+		<classes>
+
+			<!-- <class name="com.polobix.testCases.TC_LoginDDT_002" /> -->
+
+		   <!--	<class name="com.polobix.testCases.TC_LoginTest_001" />  -->
+
+			<!-- <class name="com.polobix.testCases.TC_EyeButtonInLoginPage" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_Forget_password_Link" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_ProfileUpdate_001" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_SignUpTest_001" /> -->
+
+	     	<class name="com.polobix.testCases.TC_KYCVerificationTest_001" /> 
+
+			<!-- <class name="com.polobix.testCases.TC_Verify_Links" /> -->
+
+			<!-- <class name="com.polobix.testCases.images" /> -->
+
+			<!-- <class name="com.polobix.testCases.cookieRead" /> -->
+
+		</classes>
+
+	</test>
+
+
+
+	<test name="ExchangeApp Test on EDGE">
+		<parameter name="browser" value="edge" />
+
+		<classes>
+
+			<!-- <class name="com.polobix.testCases.TC_LoginDDT_002" /> -->
+
+			<!--  <class name="com.polobix.testCases.TC_LoginTest_001" />-->
+
+			<!-- <class name="com.polobix.testCases.TC_EyeButtonInLoginPage" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_Forget_password_Link" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_ProfileUpdate_001" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_SignUpTest_001" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_KYCVerificationTest_001" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_Verify_Links" /> -->
+
+			<!-- <class name="com.polobix.testCases.images" /> -->
+
+			<!-- <class name="com.polobix.testCases.cookieRead" /> -->
+
+		</classes>
+
+	</test>
+
+
+
+
+	<test name="ExchangeApp Test on FIREFOX">
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+
+			<!-- <class name="com.polobix.testCases.TC_LoginDDT_002" /> -->
+
+	     	<!--   <class name="com.polobix.testCases.TC_LoginTest_001" />  -->
+
+			<!-- <class name="com.polobix.testCases.TC_EyeButtonInLoginPage" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_Forget_password_Link" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_ProfileUpdate_001" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_SignUpTest_001" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_KYCVerificationTest_001" /> -->
+
+			<!-- <class name="com.polobix.testCases.TC_Verify_Links" /> -->
+
+			<!-- <class name="com.polobix.testCases.images" /> -->
+
+			<!-- <class name="com.polobix.testCases.cookieRead" /> -->
+
+		</classes>
+
+	</test>
+	
+	
+	
+
+
+
+</suite>
